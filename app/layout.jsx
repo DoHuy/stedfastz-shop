@@ -8,10 +8,10 @@ const outfit = Outfit({ subsets: ["latin"], weight: ["400", "500", "600"] });
 export const metadata = {
     metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000'),
     title: {
-        default: 'Stedfasts - Gadgets you\'ll love. Prices you\'ll trust.',
-        template: '%s - Stedfasts'
+        default: 'Xe điện chất! - Hệ thống phân phối phụ kiện và đồ chơi xe điện hàng đầu',
+        template: '%s - Xe điện chất!',
     },
-    description: "Stedfasts is your one-stop shop for the latest and greatest gadgets. We offer a wide variety of products at competitive prices, all with our commitment to quality and customer satisfaction.",
+    description: "Chào mừng bạn đến với Xe điện chất! – Địa chỉ tin cậy dành cho cộng đồng yêu xe xanh. Chúng tôi tự hào là thế giới phụ kiện dành cho xe điện, mang đến những giải pháp nâng cấp toàn diện từ thẩm mỹ đến hiệu năng cho xế yêu của bạn.",
 };
 
 export default function RootLayout({ children }) {

@@ -8,8 +8,8 @@ export async function generateMetadata({ params }) {
 
     if (!product) {
         return {
-            title: "Product Not Found",
-            description: "The product you are looking for does not exist.",
+            title: "Sản phẩm không tồn tại",
+            description: "Sản phẩm bạn đang tìm kiếm không tồn tại.",
         };
     }
 
@@ -44,7 +44,7 @@ export default function Product({ params }) {
     const product = productDummyData.find((p) => p.id === productId);
 
     if (!product) {
-        return <div>Product not found</div>;
+        return <div>Sản phẩm không tồn tại</div>;
     }
 
     return (
@@ -52,7 +52,7 @@ export default function Product({ params }) {
             <div className="max-w-7xl mx-auto">
                 {/* Breadcrumbs */}
                 <div className="text-gray-600 text-sm mt-8 mb-5">
-                    Home / Products / {product?.category}
+                    Trang chủ / Sản phẩm / {product?.category}
                 </div>
 
                 {/* Product Details */}

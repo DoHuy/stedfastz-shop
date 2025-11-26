@@ -1,25 +1,25 @@
 import gs_logo from "./gs_logo.jpg"
-import happy_store from "./happy_store.webp"
-import upload_area from "./upload_area.svg"
-import hero_model_img from "./hero_model_img.png"
-import hero_product_img1 from "./hero_product_img1.png"
-import hero_product_img2 from "./hero_product_img2.png"
-import product_img1 from "./product_img1.png"
-import product_img2 from "./product_img2.png"
-import product_img3 from "./product_img3.png"
-import product_img4 from "./product_img4.png"
-import product_img5 from "./product_img5.png"
-import product_img6 from "./product_img6.png"
-import product_img7 from "./product_img7.png"
-import product_img8 from "./product_img8.png"
-import product_img9 from "./product_img9.png"
-import product_img10 from "./product_img10.png"
-import product_img11 from "./product_img11.png"
-import product_img12 from "./product_img12.png"
+const happy_store = gs_logo;
+const upload_area = gs_logo;
+const hero_model_img = gs_logo;
+const hero_product_img1 = gs_logo;
+const hero_product_img2 = gs_logo;
+const product_img1 = gs_logo;
+const product_img2 = gs_logo;
+const product_img3 = gs_logo;
+const product_img4 = gs_logo;
+const product_img5 = gs_logo;
+const product_img6 = gs_logo;
+const product_img7 = gs_logo;
+const product_img8 = gs_logo;
+const product_img9 = gs_logo;
+const product_img10 = gs_logo;
+const product_img11 = gs_logo;
+const product_img12 = gs_logo;
 import { ClockFadingIcon, HeadsetIcon, SendIcon } from "lucide-react";
-import profile_pic1 from "./profile_pic1.jpg"
-import profile_pic2 from "./profile_pic2.jpg"
-import profile_pic3 from "./profile_pic3.jpg"
+const profile_pic1 = gs_logo;
+const profile_pic2 = gs_logo;
+const profile_pic3 = gs_logo;
 
 export const assets = {
     upload_area, hero_model_img,
@@ -28,35 +28,36 @@ export const assets = {
     product_img7, product_img8, product_img9, product_img10, product_img11, product_img12,
 }
 
-export const categories = ["Headphones", "Speakers", "Watch", "Earbuds", "Mouse", "Decoration"];
+// Cập nhật Danh mục Tiếng Việt
+export const categories = ["Tem & Decal", "Đồ chơi & Hiệu năng", "Nội thất & Tiện ích", "Đồ chơi công nghệ", "Thiết bị sạc", "An toàn & Bảo hộ"];
 
 export const dummyRatingsData = [
-    { id: "rat_1", rating: 4.2, review: "I was a bit skeptical at first, but this product turned out to be even better than I imagined. The quality feels premium, it's easy to use, and it delivers exactly what was promised. I've already recommended it to friends and will definitely purchase again in the future.", user: { name: 'Kristin Watson', image: profile_pic1 }, productId: "prod_1", createdAt: 'Sat Jul 19 2025 14:51:25 GMT+0530 (India Standard Time)', updatedAt: 'Sat Jul 19 2025 14:51:25 GMT+0530 (India Standard Time)', product: { name: 'Bluetooth Speakers', category:'Electronics', id:'prod_1'} },
-    { id: "rat_2", rating: 5.0, review: "This product is great. I love it!  You made it so simple. My new site is so much faster and easier to work with than my old site.", user: { name: 'Jenny Wilson', image: profile_pic2 }, productId: "prod_2", createdAt: 'Sat Jul 19 2025 14:51:25 GMT+0530 (India Standard Time)', updatedAt: 'Sat Jul 19 2025 14:51:25 GMT+0530 (India Standard Time)', product: { name: 'Bluetooth Speakers', category:'Electronics', id:'prod_1'} },
-    { id: "rat_3", rating: 4.1, review: "This product is amazing. I love it!  You made it so simple. My new site is so much faster and easier to work with than my old site.", user: { name: 'Bessie Cooper', image: profile_pic3 }, productId: "prod_3", createdAt: 'Sat Jul 19 2025 14:51:25 GMT+0530 (India Standard Time)', updatedAt: 'Sat Jul 19 2025 14:51:25 GMT+0530 (India Standard Time)', product: { name: 'Bluetooth Speakers', category:'Electronics', id:'prod_1'} },
-    { id: "rat_4", rating: 5.0, review: "This product is great. I love it!  You made it so simple. My new site is so much faster and easier to work with than my old site.", user: { name: 'Kristin Watson', image: profile_pic1 }, productId: "prod_4", createdAt: 'Sat Jul 19 2025 14:51:25 GMT+0530 (India Standard Time)', updatedAt: 'Sat Jul 19 2025 14:51:25 GMT+0530 (India Standard Time)', product: { name: 'Bluetooth Speakers', category:'Electronics', id:'prod_1'} },
-    { id: "rat_5", rating: 4.3, review: "Overall, I'm very happy with this purchase. It works as described and feels durable. The only reason I didn't give it five stars is because of a small issue (such as setup taking a bit longer than expected, or packaging being slightly damaged). Still, highly recommend it for anyone looking for a reliable option.", user: { name: 'Jenny Wilson', image: profile_pic2 }, productId: "prod_5", createdAt: 'Sat Jul 19 2025 14:51:25 GMT+0530 (India Standard Time)', updatedAt: 'Sat Jul 19 2025 14:51:25 GMT+0530 (India Standard Time)', product: { name: 'Bluetooth Speakers', category:'Electronics', id:'prod_1'} },
-    { id: "rat_6", rating: 5.0, review: "This product is great. I love it!  You made it so simple. My new site is so much faster and easier to work with than my old site.", user: { name: 'Bessie Cooper', image: profile_pic3 }, productId: "prod_6", createdAt: 'Sat Jul 19 2025 14:51:25 GMT+0530 (India Standard Time)', updatedAt: 'Sat Jul 19 2025 14:51:25 GMT+0530 (India Standard Time)', product: { name: 'Bluetooth Speakers', category:'Electronics', id:'prod_1'} },
+    { id: "rat_1", rating: 4.8, review: "Lắp vào xe nhìn sang hẳn, chất liệu CNC rất chắc chắn. Shop tư vấn nhiệt tình đúng dòng xe VinFast của mình.", user: { name: 'Minh Tuấn', image: profile_pic1 }, productId: "prod_1", createdAt: 'Sat Jul 19 2025 14:51:25 GMT+0530', updatedAt: 'Sat Jul 19 2025 14:51:25 GMT+0530', product: { name: 'Bộ Ốc Titan', category:'Đồ chơi & Hiệu năng', id:'prod_1'} },
+    { id: "rat_2", rating: 5.0, review: "Thảm lót sàn vừa khít với VF8, không mùi nhựa, rất êm chân. Giao hàng nhanh.", user: { name: 'Lan Anh', image: profile_pic2 }, productId: "prod_2", createdAt: 'Sat Jul 19 2025 14:51:25 GMT+0530', updatedAt: 'Sat Jul 19 2025 14:51:25 GMT+0530', product: { name: 'Bộ Ốc Titan', category:'Đồ chơi & Hiệu năng', id:'prod_1'} },
+    { id: "rat_3", rating: 4.5, review: "Đèn sáng hơn đèn zin rất nhiều, đi đêm an tâm hẳn. Tuy nhiên lắp đặt hơi lâu một chút.", user: { name: 'Hoàng Nam', image: profile_pic3 }, productId: "prod_3", createdAt: 'Sat Jul 19 2025 14:51:25 GMT+0530', updatedAt: 'Sat Jul 19 2025 14:51:25 GMT+0530', product: { name: 'Bộ Ốc Titan', category:'Đồ chơi & Hiệu năng', id:'prod_1'} },
+    { id: "rat_4", rating: 5.0, review: "Sạc dự phòng cho xe máy điện hoạt động tốt, cứu cánh những lúc gần hết pin giữa đường.", user: { name: 'Minh Tuấn', image: profile_pic1 }, productId: "prod_4", createdAt: 'Sat Jul 19 2025 14:51:25 GMT+0530', updatedAt: 'Sat Jul 19 2025 14:51:25 GMT+0530', product: { name: 'Bộ Ốc Titan', category:'Đồ chơi & Hiệu năng', id:'prod_1'} },
+    { id: "rat_5", rating: 4.3, review: "Android box chạy mượt, xem Youtube trên xe VinFast không bị giật lag. Đáng tiền.", user: { name: 'Lan Anh', image: profile_pic2 }, productId: "prod_5", createdAt: 'Sat Jul 19 2025 14:51:25 GMT+0530', updatedAt: 'Sat Jul 19 2025 14:51:25 GMT+0530', product: { name: 'Bộ Ốc Titan', category:'Đồ chơi & Hiệu năng', id:'prod_1'} },
+    { id: "rat_6", rating: 5.0, review: "Tem xe in sắc nét, dán lên nhìn xe như mới. Sẽ ủng hộ shop tiếp.", user: { name: 'Hoàng Nam', image: profile_pic3 }, productId: "prod_6", createdAt: 'Sat Jul 19 2025 14:51:25 GMT+0530', updatedAt: 'Sat Jul 19 2025 14:51:25 GMT+0530', product: { name: 'Bộ Ốc Titan', category:'Đồ chơi & Hiệu năng', id:'prod_1'} },
 ]
 
 export const dummyStoreData = {
     id: "store_1",
     userId: "user_1",
-    name: "Happy Shop",
-    description: "At Happy Shop, we believe shopping should be simple, smart, and satisfying. Whether you're hunting for the latest fashion trends, top-notch electronics, home essentials, or unique lifestyle products — we've got it all under one digital roof.",
-    username: "happyshop",
-    address: "3rd Floor, Happy Shop , New Building, 123 street , c sector , NY, US",
+    name: "EV Pro Shop",
+    description: "Tại EV Pro Shop, chúng tôi chuyên cung cấp các giải pháp nâng cấp toàn diện cho Xe Điện. Từ thẩm mỹ đến hiệu năng, tìm phụ kiện tốt nhất cho VinFast, Dat Bike và nhiều dòng xe khác.",
+    username: "evproshop",
+    address: "123 Cầu Giấy, Hà Nội, Việt Nam",
     status: "approved",
     isActive: true,
     logo: happy_store,
-    email: "happyshop@example.com",
-    contact: "+0 1234567890",
+    email: "support@evproshop.com",
+    contact: "+84 912345678",
     createdAt: "2025-09-04T09:04:16.189Z",
     updatedAt: "2025-09-04T09:04:44.273Z",
     user: {
         id: "user_31dOriXqC4TATvc0brIhlYbwwc5",
-        name: "Great Stack",
-        email: "user.greatstack@gmail.com",
+        name: "Admin User",
+        email: "admin@evproshop.com",
         image: gs_logo,
     }
 }
@@ -64,260 +65,258 @@ export const dummyStoreData = {
 export const productDummyData = [
     {
         id: "prod_1",
-        name: "Modern table lamp",
-        description: "Modern table lamp with a sleek design. It's perfect for any room. It's made of high-quality materials and comes with a lifetime warranty. Enhance your audio experience with this earbuds. Indulge yourself in a world of pure sound with 50 hours of uninterrupted playtime. Equipped with the cutting-edge Zen Mode Tech ENC and BoomX Tech, prepare to be enthralled by a symphony of crystal-clear melodies.",
-        mrp: 40,
-        price: 29,
+        name: "Bộ Ốc Titan (Gr5)",
+        description: "Bộ ốc Titan Gr5 cao cấp cho xe máy điện. Độ bền cao, chịu nhiệt, màu sắc thời thượng (Xanh/Tím/Vàng). Thay thế hoàn hảo cho ốc zin dễ rỉ sét.",
+        mrp: 400000,
+        price: 250000,
         images: [product_img1, product_img2, product_img3, product_img4],
-        category: "Decoration",
+        category: "Đồ chơi & Hiệu năng",
         storeId: "seller_1",
         inStock: true,
         store: dummyStoreData,
         rating: dummyRatingsData,
-        createdAt: 'Sat Jul 29 2025 14:51:25 GMT+0530 (India Standard Time)',
-        updatedAt: 'Sat Jul 29 2025 14:51:25 GMT+0530 (India Standard Time)',
+        createdAt: 'Sat Jul 29 2025 14:51:25 GMT+0530',
+        updatedAt: 'Sat Jul 29 2025 14:51:25 GMT+0530',
     },
     {
         id: "prod_2",
-        name: "Smart speaker gray",
-        description: "Smart speaker with a sleek design. It's perfect for any room. It's made of high-quality materials and comes with a lifetime warranty.",
-        mrp: 50,
-        price: 29,
+        name: "Kẹp Điện Thoại Kèm Ô",
+        description: "Kẹp điện thoại chống rung trang bị ô che mini. Bảo vệ điện thoại khỏi nắng mưa khi di chuyển. Vật phẩm thiết yếu cho các bác tài xế công nghệ.",
+        mrp: 150000,
+        price: 90000,
         images: [product_img2],
         storeId: "seller_1",
         inStock: true,
         store: dummyStoreData,
-        category: "Speakers",
+        category: "Đồ chơi công nghệ",
         rating: dummyRatingsData,
-        createdAt: 'Sat Jul 28 2025 14:51:25 GMT+0530 (India Standard Time)',
-        updatedAt: 'Sat Jul 28 2025 14:51:25 GMT+0530 (India Standard Time)',
+        createdAt: 'Sat Jul 28 2025 14:51:25 GMT+0530',
+        updatedAt: 'Sat Jul 28 2025 14:51:25 GMT+0530',
     },
     {
         id: "prod_3",
-        name: "Smart watch white",
-        description: "Smart watch with a sleek design. It's perfect for any room. It's made of high-quality materials and comes with a lifetime warranty.",
-        mrp: 60,
-        price: 29,
+        name: "Bọc Khóa Smartkey Silicon",
+        description: "Bọc silicon bền bỉ cho khóa smartkey VinFast Klara/Feliz/Vento. Chống sốc, chống trầy xước và có nhiều màu sắc cá tính.",
+        mrp: 50000,
+        price: 25000,
         images: [product_img3],
         storeId: "seller_1",
         inStock: true,
         store: dummyStoreData,
-        category: "Watch",
+        category: "Nội thất & Tiện ích",
         rating: dummyRatingsData,
-        createdAt: 'Sat Jul 27 2025 14:51:25 GMT+0530 (India Standard Time)',
-        updatedAt: 'Sat Jul 27 2025 14:51:25 GMT+0530 (India Standard Time)',
+        createdAt: 'Sat Jul 27 2025 14:51:25 GMT+0530',
+        updatedAt: 'Sat Jul 27 2025 14:51:25 GMT+0530',
     },
     {
         id: "prod_4",
-        name: "Wireless headphones",
-        description: "Wireless headphones with a sleek design. It's perfect for any room. It's made of high-quality materials and comes with a lifetime warranty.",
-        mrp: 70,
-        price: 29,
+        name: "Phuộc Sau RCB (Giảm Xóc)",
+        description: "Phuộc sau hiệu năng cao giúp xe vận hành êm ái trên đường xấu. Có thể tùy chỉnh độ nén lò xo. Tương thích hầu hết các dòng xe máy điện phổ thông.",
+        mrp: 1200000,
+        price: 890000,
         images: [product_img4],
         storeId: "seller_1",
         inStock: true,
         store: dummyStoreData,
-        category: "Headphones",
+        category: "Đồ chơi & Hiệu năng",
         rating: dummyRatingsData,
-        createdAt: 'Sat Jul 26 2025 14:51:25 GMT+0530 (India Standard Time)',
-        updatedAt: 'Sat Jul 26 2025 14:51:25 GMT+0530 (India Standard Time)',
+        createdAt: 'Sat Jul 26 2025 14:51:25 GMT+0530',
+        updatedAt: 'Sat Jul 26 2025 14:51:25 GMT+0530',
     },
     {
         id: "prod_5",
-        name: "Smart watch black",
-        description: "Smart watch with a sleek design. It's perfect for any room. It's made of high-quality materials and comes with a lifetime warranty.",
-        mrp: 49,
-        price: 29,
+        name: "Thảm Lót Sàn 6D (VF8)",
+        description: "Thảm lót sàn da 6D sang trọng thiết kế riêng cho VinFast VF8. Chống nước, chống bụi bẩn và dễ dàng vệ sinh. Nâng tầm thẩm mỹ nội thất xe.",
+        mrp: 1500000,
+        price: 990000,
         images: [product_img5],
         storeId: "seller_1",
         inStock: true,
         store: dummyStoreData,
-        category: "Watch",
+        category: "Nội thất & Tiện ích",
         rating: [...dummyRatingsData,...dummyRatingsData],
-        createdAt: 'Sat Jul 25 2025 14:51:25 GMT+0530 (India Standard Time)',
-        updatedAt: 'Sat Jul 25 2025 14:51:25 GMT+0530 (India Standard Time)',
+        createdAt: 'Sat Jul 25 2025 14:51:25 GMT+0530',
+        updatedAt: 'Sat Jul 25 2025 14:51:25 GMT+0530',
     },
     {
         id: "prod_6",
-        name: "Security Camera",
-        description: "Security Camera with a sleek design. It's perfect for any room. It's made of high-quality materials and comes with a lifetime warranty.",
-        mrp: 59,
-        price: 29,
+        name: "Camera Hành Trình 4K WiFi",
+        description: "Camera hành trình Ultra HD 4K góc rộng. Tích hợp quay đêm, ghi đè vòng lặp và kết nối WiFi để xem/tải video trực tiếp trên điện thoại.",
+        mrp: 800000,
+        price: 550000,
         images: [product_img6],
         storeId: "seller_1",
         inStock: true,
         store: dummyStoreData,
-        category: "Camera",
+        category: "An toàn & Bảo hộ",
         rating: [...dummyRatingsData,...dummyRatingsData],
-        createdAt: 'Sat Jul 25 2025 14:51:25 GMT+0530 (India Standard Time)',
-        updatedAt: 'Sat Jul 25 2025 14:51:25 GMT+0530 (India Standard Time)',
+        createdAt: 'Sat Jul 25 2025 14:51:25 GMT+0530',
+        updatedAt: 'Sat Jul 25 2025 14:51:25 GMT+0530',
     },
     {
         id: "prod_7",
-        name: "Smart Pen for iPad",
-        description: "Smart Pen for iPad with a sleek design. It's perfect for any room. It's made of high-quality materials and comes with a lifetime warranty.",
-        mrp: 89,
-        price: 29,
+        name: "Bộ Tem Trùm Xe Điện",
+        description: "Bộ tem trùm toàn thân cho các dòng xe Xmen/Pega. Keo dính tốt, chịu được thời tiết nắng mưa, màu sắc nổi bật giúp cá nhân hóa chiếc xe của bạn.",
+        mrp: 300000,
+        price: 180000,
         images: [product_img7],
         storeId: "seller_1",
         inStock: true,
         store: dummyStoreData,
-        category: "Pen",
+        category: "Tem & Decal",
         rating: [...dummyRatingsData,...dummyRatingsData],
-        createdAt: 'Sat Jul 24 2025 14:51:25 GMT+0530 (India Standard Time)',
-        updatedAt: 'Sat Jul 24 2025 14:51:25 GMT+0530 (India Standard Time)',
+        createdAt: 'Sat Jul 24 2025 14:51:25 GMT+0530',
+        updatedAt: 'Sat Jul 24 2025 14:51:25 GMT+0530',
     },
     {
         id: "prod_8",
-        name: "Home Theater",
-        description: "Home Theater with a sleek design. It's perfect for any room. It's made of high-quality materials and comes with a lifetime warranty.",
-        mrp: 99,
-        price: 29,
+        name: "Android Box cho Ô tô",
+        description: "Biến màn hình zin của xe thành máy tính bảng Android. Xem YouTube, Netflix, VTV Go và dùng Google Maps trực tiếp trên xe. Cắm là chạy.",
+        mrp: 2000000,
+        price: 1450000,
         images: [product_img8],
         storeId: "seller_1",
         inStock: true,
         store: dummyStoreData,
-        category: "Theater",
+        category: "Đồ chơi công nghệ",
         rating: [...dummyRatingsData,...dummyRatingsData],
-        createdAt: 'Sat Jul 23 2025 14:51:25 GMT+0530 (India Standard Time)',
-        updatedAt: 'Sat Jul 23 2025 14:51:25 GMT+0530 (India Standard Time)',
+        createdAt: 'Sat Jul 23 2025 14:51:25 GMT+0530',
+        updatedAt: 'Sat Jul 23 2025 14:51:25 GMT+0530',
     },
     {
         id: "prod_9",
-        name: "Apple Wireless Earbuds",
-        description: "Apple Wireless Earbuds with a sleek design. It's perfect for any room. It's made of high-quality materials and comes with a lifetime warranty.",
-        mrp: 89,
-        price: 29,
+        name: "Bộ Sạc Di Động 3.5kW",
+        description: "Sạc di động nhỏ gọn cho ô tô điện. Dòng sạc tùy chỉnh (8A-16A), dây dài 5m, chuẩn cắm Type 2. Tiện lợi mang theo khi đi xa.",
+        mrp: 3500000,
+        price: 2500000,
         images: [product_img9],
         storeId: "seller_1",
         inStock: true,
         store: dummyStoreData,
-        category: "Earbuds",
+        category: "Thiết bị sạc",
         rating: [...dummyRatingsData,...dummyRatingsData],
-        createdAt: 'Sat Jul 22 2025 14:51:25 GMT+0530 (India Standard Time)',
-        updatedAt: 'Sat Jul 22 2025 14:51:25 GMT+0530 (India Standard Time)',
+        createdAt: 'Sat Jul 22 2025 14:51:25 GMT+0530',
+        updatedAt: 'Sat Jul 22 2025 14:51:25 GMT+0530',
     },
     {
         id: "prod_10",
-        name: "Apple Smart Watch",
-        description: "Apple Smart Watch with a sleek design. It's perfect for any room. It's made of high-quality materials and comes with a lifetime warranty.",
-        mrp: 179,
-        price: 29,
+        name: "Bóng Đèn Pha LED (H4)",
+        description: "Bóng đèn LED siêu sáng thay thế bóng zin. Ánh sáng trắng 6000K, tiết kiệm điện năng, tối ưu cho tuổi thọ bình ắc quy xe điện.",
+        mrp: 450000,
+        price: 290000,
         images: [product_img10],
         storeId: "seller_1",
         inStock: true,
         store: dummyStoreData,
-        category: "Watch",
+        category: "Đồ chơi & Hiệu năng",
         rating: [...dummyRatingsData,...dummyRatingsData],
-        createdAt: 'Sat Jul 21 2025 14:51:25 GMT+0530 (India Standard Time)',
-        updatedAt: 'Sat Jul 21 2025 14:51:25 GMT+0530 (India Standard Time)',
+        createdAt: 'Sat Jul 21 2025 14:51:25 GMT+0530',
+        updatedAt: 'Sat Jul 21 2025 14:51:25 GMT+0530',
     },
     {
         id: "prod_11",
-        name: "RGB Gaming Mouse",
-        description: "RGB Gaming Mouse with a sleek design. It's perfect for any room. It's made of high-quality materials and comes with a lifetime warranty.",
-        mrp: 39,
-        price: 29,
+        name: "Bao Tay Lái Mềm",
+        description: "Bao tay cao su mềm chống trơn trượt. Giảm mỏi tay khi lái xe đường dài. Lắp đặt dễ dàng cho hầu hết các loại xe máy điện.",
+        mrp: 200000,
+        price: 120000,
         images: [product_img11],
         storeId: "seller_1",
         inStock: true,
         store: dummyStoreData,
-        category: "Mouse",
+        category: "Đồ chơi & Hiệu năng",
         rating: [...dummyRatingsData,...dummyRatingsData],
-        createdAt: 'Sat Jul 20 2025 14:51:25 GMT+0530 (India Standard Time)',
-        updatedAt: 'Sat Jul 20 2025 14:51:25 GMT+0530 (India Standard Time)',
+        createdAt: 'Sat Jul 20 2025 14:51:25 GMT+0530',
+        updatedAt: 'Sat Jul 20 2025 14:51:25 GMT+0530',
     },
     {
         id: "prod_12",
-        name: "Smart Home Cleaner",
-        description: "Smart Home Cleaner with a sleek design. It's perfect for any room. It's made of high-quality materials and comes with a lifetime warranty.",
-        mrp: 199,
-        price: 29,
+        name: "Bơm Lốp Mini Cầm Tay",
+        description: "Bơm lốp điện tử không dây tiện lợi. Màn hình hiển thị số, tự ngắt khi đủ áp suất. Dùng được cho ô tô, xe máy và xe đạp.",
+        mrp: 600000,
+        price: 350000,
         images: [product_img12],
         storeId: "seller_1",
         inStock: true,
         store: dummyStoreData,
-        category: "Cleaner",
+        category: "An toàn & Bảo hộ",
         rating: [...dummyRatingsData,...dummyRatingsData],
-        createdAt: 'Sat Jul 19 2025 14:51:25 GMT+0530 (India Standard Time)',
-        updatedAt: 'Sat Jul 19 2025 14:51:25 GMT+0530 (India Standard Time)',
+        createdAt: 'Sat Jul 19 2025 14:51:25 GMT+0530',
+        updatedAt: 'Sat Jul 19 2025 14:51:25 GMT+0530',
     }
 ];
 
 export const ourSpecsData = [
-    { title: "Free Shipping", description: "Enjoy fast, free delivery on every order no conditions, just reliable doorstep.", icon: SendIcon, accent: '#05DF72' },
-    { title: "7 Days easy Return", description: "Change your mind? No worries. Return any item within 7 days.", icon: ClockFadingIcon, accent: '#FF8904' },
-    { title: "24/7 Customer Support", description: "We're here for you. Get expert help with our customer support.", icon: HeadsetIcon, accent: '#A684FF' }
+    { title: "Giao Hàng Toàn Quốc", description: "Giao nhanh đến mọi tỉnh thành. Đóng gói chuyên dụng an toàn cho phụ tùng xe.", icon: SendIcon, accent: '#05DF72' },
+    { title: "Hỗ Trợ Lắp Đặt", description: "Tư vấn kỹ thuật online miễn phí. Hỗ trợ đổi trả nếu không tương thích với xe.", icon: ClockFadingIcon, accent: '#FF8904' },
+    { title: "Bảo Hành Chính Hãng", description: "Bảo hành 12 tháng cho các sản phẩm điện tử và đồ chơi hiệu năng.", icon: HeadsetIcon, accent: '#A684FF' }
 ]
 
 export const addressDummyData = {
     id: "addr_1",
     userId: "user_1",
-    name: "John Doe",
-    email: "johndoe@example.com",
-    street: "123 Main St",
-    city: "New York",
-    state: "NY",
-    zip: "10001",
-    country: "USA",
-    phone: "1234567890",
-    createdAt: 'Sat Jul 19 2025 14:51:25 GMT+0530 (India Standard Time)',
+    name: "Nguyễn Văn A",
+    email: "nguyenvana@example.com",
+    street: "456 Lê Duẩn",
+    city: "Đà Nẵng",
+    state: "DN",
+    zip: "550000",
+    country: "Vietnam",
+    phone: "0905123456",
+    createdAt: 'Sat Jul 19 2025 14:51:25 GMT+0530',
 }
 
 export const couponDummyData = [
-    { code: "NEW20", description: "20% Off for New Users", discount: 20, forNewUser: true, forMember: false, isPublic: false, expiresAt: "2026-12-31T00:00:00.000Z", createdAt: "2025-08-22T08:35:31.183Z" },
-    { code: "NEW10", description: "10% Off for New Users", discount: 10, forNewUser: true, forMember: false, isPublic: false, expiresAt: "2026-12-31T00:00:00.000Z", createdAt: "2025-08-22T08:35:50.653Z" },
-    { code: "OFF20", description: "20% Off for All Users", discount: 20, forNewUser: false, forMember: false, isPublic: false, expiresAt: "2026-12-31T00:00:00.000Z", createdAt: "2025-08-22T08:42:00.811Z" },
-    { code: "OFF10", description: "10% Off for All Users", discount: 10, forNewUser: false, forMember: false, isPublic: false, expiresAt: "2026-12-31T00:00:00.000Z", createdAt: "2025-08-22T08:42:21.279Z" },
-    { code: "PLUS10", description: "20% Off for Members", discount: 10, forNewUser: false, forMember: true, isPublic: false, expiresAt: "2027-03-06T00:00:00.000Z", createdAt: "2025-08-22T11:38:20.194Z" }
+    { code: "EVNEW20", description: "Giảm 20% cho chủ xe mới", discount: 20, forNewUser: true, forMember: false, isPublic: false, expiresAt: "2026-12-31T00:00:00.000Z", createdAt: "2025-08-22T08:35:31.183Z" },
+    { code: "VF10", description: "Giảm 10% phụ tùng VinFast", discount: 10, forNewUser: true, forMember: false, isPublic: false, expiresAt: "2026-12-31T00:00:00.000Z", createdAt: "2025-08-22T08:35:50.653Z" },
+    { code: "HE2025", description: "Giảm 20% đồ đi phượt hè", discount: 20, forNewUser: false, forMember: false, isPublic: false, expiresAt: "2026-12-31T00:00:00.000Z", createdAt: "2025-08-22T08:42:00.811Z" },
+    { code: "CLUB10", description: "Giảm 10% thành viên hội xe điện", discount: 10, forNewUser: false, forMember: false, isPublic: false, expiresAt: "2026-12-31T00:00:00.000Z", createdAt: "2025-08-22T08:42:21.279Z" },
+    { code: "VIP15", description: "Giảm 15% cho khách VIP", discount: 15, forNewUser: false, forMember: true, isPublic: false, expiresAt: "2027-03-06T00:00:00.000Z", createdAt: "2025-08-22T11:38:20.194Z" }
 ]
 
 export const dummyUserData = {
     id: "user_31dQbH27HVtovbs13X2cmqefddM",
-    name: "GreatStack",
-    email: "greatstack@example.com",
+    name: "Tuấn Đỗ",
+    email: "tuando@example.com",
     image: gs_logo,
     cart: {}
 }
 
 export const orderDummyData = [
     {
-        id: "cmemm75h5001jtat89016h1p3",
-        total: 214.2,
+        id: "ord_001",
+        total: 1240000,
         status: "DELIVERED",
         userId: "user_31dQbH27HVtovbs13X2cmqefddM",
-        storeId: "cmemkqnzm000htat8u7n8cpte",
-        addressId: "cmemm6g95001ftat8omv9b883",
-        isPaid: false,
+        storeId: "store_1",
+        addressId: "addr_1",
+        isPaid: true,
         paymentMethod: "COD",
         createdAt: "2025-08-22T09:15:03.929Z",
         updatedAt: "2025-08-22T09:15:50.723Z",
         isCouponUsed: true,
-        coupon: dummyRatingsData[2],
+        coupon: couponDummyData[0],
         orderItems: [
-            { orderId: "cmemm75h5001jtat89016h1p3", productId: "cmemlydnx0017tat8h3rg92hz", quantity: 1, price: 89, product: productDummyData[0], },
-            { orderId: "cmemm75h5001jtat89016h1p3", productId: "cmemlxgnk0015tat84qm8si5v", quantity: 1, price: 149, product: productDummyData[1], }
+            { orderId: "ord_001", productId: "prod_5", quantity: 1, price: 990000, product: productDummyData[4], }, // Thảm sàn
+            { orderId: "ord_001", productId: "prod_1", quantity: 1, price: 250000, product: productDummyData[0], }  // Ốc Titan
         ],
         address: addressDummyData,
         user: dummyUserData
     },
     {
-        id: "cmemm6jv7001htat8vmm3gxaf",
-        total: 421.6,
-        status: "DELIVERED",
+        id: "ord_002",
+        total: 550000,
+        status: "PROCESSING",
         userId: "user_31dQbH27HVtovbs13X2cmqefddM",
-        storeId: "cmemkqnzm000htat8u7n8cpte",
-        addressId: "cmemm6g95001ftat8omv9b883",
+        storeId: "store_1",
+        addressId: "addr_1",
         isPaid: false,
         paymentMethod: "COD",
         createdAt: "2025-08-22T09:14:35.923Z",
         updatedAt: "2025-08-22T09:15:52.535Z",
-        isCouponUsed: true,
-        coupon: couponDummyData[0],
+        isCouponUsed: false,
+        coupon: null,
         orderItems: [
-            { orderId: "cmemm6jv7001htat8vmm3gxaf", productId: "cmemm1f3y001dtat8liccisar", quantity: 1, price: 229, product: productDummyData[2], },
-            { orderId: "cmemm6jv7001htat8vmm3gxaf", productId: "cmemm0nh2001btat8glfvhry1", quantity: 1, price: 99, product: productDummyData[3], },
-            { orderId: "cmemm6jv7001htat8vmm3gxaf", productId: "cmemlz8640019tat8kz7emqca", quantity: 1, price: 199, product: productDummyData[4], }
+            { orderId: "ord_002", productId: "prod_6", quantity: 1, price: 550000, product: productDummyData[5], }, // Dash Cam
         ],
         address: addressDummyData,
         user: dummyUserData
@@ -326,33 +325,17 @@ export const orderDummyData = [
 
 export const storesDummyData = [
     {
-        id: "cmemkb98v0001tat8r1hiyxhn",
+        id: "store_1",
         userId: "user_31dOriXqC4TATvc0brIhlYbwwc5",
-        name: "GreatStack",
-        description: "GreatStack is the education marketplace where you can buy goodies related to coding and tech",
-        username: "greatstack",
-        address: "123 Maplewood Drive Springfield, IL 62704 USA",
-        status: "approved",
-        isActive: true,
-        logo: gs_logo,
-        email: "greatstack@example.com",
-        contact: "+0 1234567890",
-        createdAt: "2025-08-22T08:22:16.189Z",
-        updatedAt: "2025-08-22T08:22:44.273Z",
-        user: dummyUserData,
-    },
-    {
-        id: "cmemkqnzm000htat8u7n8cpte",
-        userId: "user_31dQbH27HVtovbs13X2cmqefddM",
-        name: "Happy Shop",
-        description: "At Happy Shop, we believe shopping should be simple, smart, and satisfying. Whether you're hunting for the latest fashion trends, top-notch electronics, home essentials, or unique lifestyle products — we've got it all under one digital roof.",
-        username: "happyshop",
-        address: "3rd Floor, Happy Shop , New Building, 123 street , c sector , NY, US",
+        name: "EV Pro Shop",
+        description: "Đối tác tin cậy chuyên cung cấp phụ tùng và đồ chơi xe điện tại Việt Nam.",
+        username: "evproshop",
+        address: "123 Cầu Giấy, Hà Nội, Việt Nam",
         status: "approved",
         isActive: true,
         logo: happy_store,
-        email: "happyshop@example.com",
-        contact: "+0 123456789",
+        email: "contact@evproshop.com",
+        contact: "+84 912345678",
         createdAt: "2025-08-22T08:34:15.155Z",
         updatedAt: "2025-08-22T08:34:47.162Z",
         user: dummyUserData,
@@ -360,33 +343,22 @@ export const storesDummyData = [
 ]
 
 export const dummyAdminDashboardData = {
-    "orders": 6,
-    "stores": 2,
+    "orders": 15,
+    "stores": 1,
     "products": 12,
-    "revenue": "959.10",
+    "revenue": "25000000",
     "allOrders": [
-        { "createdAt": "2025-08-20T08:46:58.239Z", "total": 145.6 },
-        { "createdAt": "2025-08-22T08:46:21.818Z", "total": 97.2 },
-        { "createdAt": "2025-08-22T08:45:59.587Z", "total": 54.4 },
-        { "createdAt": "2025-08-23T09:15:03.929Z", "total": 214.2 },
-        { "createdAt": "2025-08-23T09:14:35.923Z", "total": 421.6 },
-        { "createdAt": "2025-08-23T11:44:29.713Z", "total": 26.1 },
-        { "createdAt": "2025-08-24T09:15:03.929Z", "total": 214.2 },
-        { "createdAt": "2025-08-24T09:14:35.923Z", "total": 421.6 },
-        { "createdAt": "2025-08-24T11:44:29.713Z", "total": 26.1 },
-        { "createdAt": "2025-08-24T11:56:29.713Z", "total": 36.1 },
-        { "createdAt": "2025-08-25T11:44:29.713Z", "total": 26.1 },
-        { "createdAt": "2025-08-25T09:15:03.929Z", "total": 214.2 },
-        { "createdAt": "2025-08-25T09:14:35.923Z", "total": 421.6 },
-        { "createdAt": "2025-08-25T11:44:29.713Z", "total": 26.1 },
-        { "createdAt": "2025-08-25T11:56:29.713Z", "total": 36.1 },
-        { "createdAt": "2025-08-25T11:30:29.713Z", "total": 110.1 }
+        { "createdAt": "2025-08-20T08:46:58.239Z", "total": 1450000 },
+        { "createdAt": "2025-08-22T08:46:21.818Z", "total": 970000 },
+        { "createdAt": "2025-08-23T09:15:03.929Z", "total": 2140000 },
+        { "createdAt": "2025-08-24T09:14:35.923Z", "total": 4210000 },
+        { "createdAt": "2025-08-25T11:56:29.713Z", "total": 1200000 },
     ]
 }
 
 export const dummyStoreDashboardData = {
     "ratings": dummyRatingsData,
-    "totalOrders": 2,
-    "totalEarnings": 636,
-    "totalProducts": 5
+    "totalOrders": 15,
+    "totalEarnings": 25000000,
+    "totalProducts": 12
 }
