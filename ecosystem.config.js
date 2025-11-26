@@ -2,7 +2,7 @@ module.exports = {
   apps: [
     {
       name: 'stedfastz-shop',
-      script: 'npm',
+      script: 'yarn',
       args: 'start',
       instances: 1,
       exec_mode: 'fork',
